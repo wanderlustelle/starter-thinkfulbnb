@@ -69,6 +69,25 @@
     text-align: center;
   }
   
+  #stay h2 {
+    margin: 0 10px 10px 10px;
+    text-align: center;
+  }
+
+  /* Media query for desktop */
+  @media (min-width: 768px) {
+    #stay {
+      text-align: left;
+    }
+
+    #stay h2 {
+      text-align: left;
+      margin-left: 0;
+    }
+
+    /* ... rest of your desktop media query styles ... */
+  }
+  
   /* Form Styles */
 form {
   border: 2px solid #ff385c;
@@ -132,6 +151,7 @@ form {
 
   .form-group:last-child {
     margin-right: 0;
+    flex: 0.5; /* Make the button group half the size of others */
   }
 
   .form-group label {
@@ -148,6 +168,7 @@ form {
 
   .form-group button {
     margin-top: 21px; /* Adjust to align button with other inputs */
+    padding: 8px; /* Reduce padding to make button shorter */
   }
 }
   
