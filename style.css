@@ -147,7 +147,8 @@ form {
   }
 
   .form-group button {
-    margin-top: 21px; 
+    margin-top: 21px; /* Adjust to align button with other inputs */
+  }
 }
   
   /* =======================
@@ -343,4 +344,3 @@ form {
       height: auto;
     }
   }
-}
